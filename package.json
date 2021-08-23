@@ -1,8 +1,16 @@
 {
-  "name": "TypeChain",
+  "name": "typechain",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/cherryc0ck/TypeChain.git",
   "author": "oriharaa <qstar9537@naver.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.3.5"
+  },
+  "scripts":{
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
+  
 }
